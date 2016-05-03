@@ -6,6 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies":{
+  		"express":"latest",
+  		"mongoose":"latest",
+  		"fs":"*",
+  		"http":"*",
+  		"socket.io":"latest",
+  		"path":"latest",
+  		"errorhandler":"latest",
+  		"cookie-parser":"latest",
+  		"crypto":"latest",
+  		"morgan":"*",
+  		"node-uuid":"*",
+  		"jwt-simple":"latest"
+  	},
   "author": "Jibin Mathews",
   "license": "MIT"
 }
