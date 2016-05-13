@@ -1,0 +1,29 @@
+{
+  "name": "canvas_share",
+  "version": "1.0.0",
+  "description": "Shared Canvas application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "latest",
+    "crypto": "latest",
+    "errorhandler": "latest",
+    "express": "latest",
+    "fs": "*",
+    "http": "*",
+    "jwt-simple": "latest",
+    "lodash": "latest",
+    "mongoose": "latest",
+    "morgan": "*",
+    "node-uuid": "*",
+    "path": "latest",
+    "redis": "^2.6.0-2",
+    "socket.io": "latest"
+  },
+  "author": "Jibin Mathews",
+  "license": "MIT"
+}

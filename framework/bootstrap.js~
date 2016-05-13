@@ -1,0 +1,16 @@
+var mongoose = require('mongoose');
+var utils = require('./utils');
+var express = require('express');
+global.successJSON = utils.successJSON;
+global.errorJSON = utils.errorJSON;
+
+module.exports = function(config){
+
+	global.app = express();
+	require('./express')(app);
+
+	var connectMongoose = (function(){
+			mongoose.connect(config.db.url);
+	});
+	console.warn("App bootstrapping...");
+};
