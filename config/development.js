@@ -6,7 +6,7 @@ module.exports = {
 		secret: 'MySecretKeyIsNothing'
 	},
 	db:{
-		url: 'mongodb://localhost:27017/canvasShare'
+		url: process.env.OPENSHIFT_MONGODB_DB_URL || 'mongodb://localhost:27017/canvasShare'
   },
   auth:{
     hashLoop : new Number(6451),

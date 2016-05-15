@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- 5.1
+before_install: npm install -g npm
+deploy:
+  provider: openshift
+  user: jibinmathews7@gmail.com
+  password:
+    secure: UThLMFq2LK7UM2vstfc/PoHasta4Ff75N5kkzydTtVQNMEKDD5xYVgP0Krn6NysSFr4QPcUZ0I/mkC21RUfNgQmKPAhy/RaPBBk/lhyo47wGUUYVOdKgntYbaNFLgs7lWlrE55hKBWJjrOXIHJB10ut8pcvLNGK17eAxpNJOI6daGt6oqTyLImJZud1pMacZgjV6OLjJhnGDYBcM7vyV9CM7GSepzQ25J0zxR1v6ynwHOpsWWOZi0JuJQqrppygl7j0Zlz78i3bdP2cYz2qzJFUOzmBZ6wD/StDuGbv3g0wCVgxpasrAikZYCjQdiZZ+rW9vgq0M4WERysEdoDOLp2HjR/gActQfnzUZYwCyxHEzvT1tfWVk+iRZfyVm2/B43VnrJPYghNkem65JAoFSto/vGQ6RLE+hPWQBGmw6lOWxGjeNp/wnCJpG9S9vi2nkZtdiQUSSlkCApmEqFioV0auVO5QZT9SH9InxXKJQlu3PIgOAJUD58cSf2dJ5RD1DlJi70oicGBkDhP+LHy1UuvDi4XNrstwyWV9L8ei2aczKKdm7dFmDn4vrAVS5JxT3RpI00bM4/v+rmdE17pYDIpB9RCUQiOyktScTwBIY+c0TrqQRcb26VWUCSaCjTjd5Gr+G6S2RIXjV+G0oshaBTspL8Ls+3QlrrbC4v73teF8=
+  app: canvasshare
+  domain: jazzyarchitect
+  on:
+    repo: jazzyarchitects/NodeSharedCanvas
